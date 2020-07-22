@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="lb" layoutX="14.0" layoutY="184.0" prefHeight="43.0" prefWidth="303.0" text="Вывод сообщений" textAlignment="CENTER" textFill="#dd1212">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="tgt" layoutX="14.0" layoutY="14.0" prefHeight="15.0" prefWidth="303.0" promptText="Введите скрость передачи данных" />
+      <Button fx:id="botton3" layoutX="14.0" layoutY="227.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="303.0" text="Подключиться" />
+      <HBox layoutY="84.0" prefHeight="100.0" prefWidth="332.0">
+         <children>
+            <Button fx:id="button1" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="Включить">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="100.0" prefWidth="175.0" text="Выключить" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="vih" layoutX="14.0" layoutY="262.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="303.0" text="Выключить" />
+   </children>
+</AnchorPane>
